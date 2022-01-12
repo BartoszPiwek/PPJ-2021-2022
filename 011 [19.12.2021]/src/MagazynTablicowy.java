@@ -5,11 +5,11 @@ public class MagazynTablicowy {
         items = new Kontener[5];
     }
 
-    public void przyjmijKontener() {
+    public void przyjmijKontener(Kontener item) {
 
     }
 
-    public void wydajKontener() {
-
+    public Kontener wydajKontener() {
+        return items[0];
     }
 }

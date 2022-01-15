@@ -7,7 +7,7 @@ public class Fabryka {
     }
 
     public Cukierek[] produkuj(int ilosc) {
-        System.out.println("Produkcja " + ilosc + " cukierkow o smaku " + smak);
+        System.out.println("Produkcja " + ilosc + " cukierkow o smaku: " + smak);
 
         Cukierek cukierki[] = new Cukierek[ilosc];
 

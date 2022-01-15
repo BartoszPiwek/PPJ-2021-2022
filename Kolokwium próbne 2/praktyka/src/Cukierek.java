@@ -8,6 +8,6 @@ public class Cukierek {
     }
 
     public String toString() {
-        return "Cukierek: " + nr + " smak: " + smak + (nr<6 ? "11" : "");
+        return "Cukierek nr " + nr + " smak: " + smak + (nr<6 ? "11" : "");
     }
 }

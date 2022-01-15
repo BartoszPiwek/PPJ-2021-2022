@@ -18,7 +18,7 @@ Nie działające operacje wykomentuj.
 Zadeklaruj i zainicjuj dowolnymi znakami dwie zmienne typu **char** nadając im nazwy:
 - charValue
 - charvalue
-- 
+
 Zanim skompilujesz program zastanów się, czy rzeczywiście się on skompiluje - zakładając, że kod jest całkowicie poprawny od strony składniowej? Przypuszczenia
 zapisz w komentarzu blokowym i sprawdź, czy były poprawne. Następnie odejmij
 jedną zmienną od drugiej, a wynik wyświetl na ekranie.

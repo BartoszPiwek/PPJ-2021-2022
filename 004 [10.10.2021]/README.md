@@ -34,7 +34,7 @@ Jaki będzie rezultat poniższego programu:
 double a = ...;
 double x;
 if (a >= 0) x = 1.701;
-if (a < 0) x = 2D ∗ 3.14f;
+if (a < 0) x = 2D * 3.14f;
 System.out.println(x);
 ```
 
@@ -42,9 +42,9 @@ System.out.println(x);
 
 Przeanalizuj poniższy fragment źle napisanego kodu i zapisz na kartce rezultat działania tego kodu.
 
-```
-int zmInt = 4 ;
-double zmDouble = −1.0;
+```java
+int zmInt = 4 
+double zmDouble = -1.0;
 if (zmInt > 0)
 if (zmDouble > 0)
 System.out.println("HereIam!");
@@ -59,7 +59,7 @@ Następnie uruchom ten kod w programie i znajdź różnice i błędy
 
 Dana jest poniższy fragment kodu, w którym **doesSignificantWork**, **makesBreakthrough** i **nobelPrizeCandidate** są zmiennymi typu **boolean**:
 
-```
+```java
 if (doesSignificantWork) {
 if (makesBreakthrough)
 nobelPrizeCandidate = true;

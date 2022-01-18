@@ -43,7 +43,7 @@ System.out.println(x);
 Przeanalizuj poniższy fragment źle napisanego kodu i zapisz na kartce rezultat działania tego kodu.
 
 ```java
-int zmInt = 4 
+int zmInt = 4
 double zmDouble = -1.0;
 if (zmInt > 0)
 if (zmDouble > 0)

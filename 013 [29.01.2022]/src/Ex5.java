@@ -5,14 +5,16 @@ import java.util.regex.Pattern;
 
 public class Ex5 {
     public static void main(String[] args) {
+        String value = "";
+
         try{
             FileReader fr = new FileReader("src/data.txt");
 
-            int bajt = fr.read();
+            int bite = fr.read();
 
-            while(bajt != -1){
-                System.out.print( (char) bajt);
-                bajt = fr.read();
+            while(bite != -1){
+                value += (char)bite;
+                bite = fr.read();
             }
 
             fr.close();
@@ -20,5 +22,7 @@ public class Ex5 {
         catch (Exception e){
             e.printStackTrace();
         }
+
+        System.out.println("Zawartość pliku data.txt: " + value);
     }
 }
